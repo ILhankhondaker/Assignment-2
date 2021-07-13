@@ -1,0 +1,100 @@
+/*----------------------------
+ Google font size Poppins 700 
+ ----------------------------*/
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+ body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+ /*---------------------
+  First to blue section  
+  ----------------------*/
+  .top-section{
+     display:flex;  
+     padding: 50px;
+     padding-bottom: 250px;
+     background-color: #2D25A0;
+  }
+  .top-section:hover .top-image img{
+     transform: rotate(45deg);
+     transition: transform 5s 
+     ease-in;
+  }
+  /* text & button aside */
+  .text-button{
+     height: 350px;
+  }
+  /* Top left title  */
+  .top-title{
+     color: white;
+     height: 260;
+     width: 445px;
+     font-weight: 700;
+     font-size: 64px;
+     left: 360;
+     margin-bottom: 0;
+  }
+  /* first section button  */
+   .first-sec-button{
+      padding: 10px;
+      background-color: #E02C6D;
+      color: white;
+   }
+   .first-sec-button:hover{
+      border: 3px solid #E02C6D;
+   }
+  /* top right image  */
+  .top-image img{
+   position: absolute;
+   width: 556.01px;
+   height: 438px;
+   left: 699.01px;
+   top: 153px;
+  }
+
+  /*------------------------
+   Second players section  
+   -------------------------*/
+
+   /* All players full section  */
+   .all-players{
+      padding-top: 20px;
+      padding-left: 10%;
+      padding-right: 10%;
+   }
+   .players{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-column-gap: 24px;
+   }
+   /* Players information box  */
+   .player-info{ 
+      margin-top: 10px;
+      margin-bottom: 10px;
+     border-radius: 10px;
+     padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+    /* player Image Style  */
+   .player-info img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5px;
+      position: static;
+      width: 300px;
+      height: 256px;
+   }
+   /* player Name Style  */
+   .player-name{
+      font-size: 28px;
+   }
+   /* player details Style  */
+   .player-details{
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      color: #6C6C6C;
+   }
