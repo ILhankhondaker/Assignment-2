@@ -48,10 +48,11 @@
    }
   /* top right image  */
   .top-image img{
-   position: absolute;
+     margin-top: 100px;
+   margin-left: 250px;
    width: 556.01px;
    height: 438px;
-   left: 699.01px;
+   left: 699px;
    top: 153px;
   }
 
@@ -179,8 +180,11 @@
       width: 250px;
       left: 0;
    }
-    .top-image{
-     display: none;
+   .top-image img{
+       margin-left: 0;
+      margin-top: 100px;
+      height: 250px;
+      width: 350px;
    }
    /* player information section  */
    .players{
