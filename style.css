@@ -161,6 +161,10 @@
       width: 483px;
       height: 110px;
    }
+   /* Footer icon */
+   .fab{
+      color: gray;
+   }
    /*------------------
        Media Qures
    --------------------*/
