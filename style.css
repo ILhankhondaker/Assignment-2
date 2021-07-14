@@ -17,6 +17,7 @@
      padding-bottom: 250px;
      background-color: #2D25A0;
   }
+  /* top section hover image transform effect */
   .top-section:hover .top-image img{
      transform: rotate(45deg);
      transition: transform 5s 
@@ -60,6 +61,7 @@
 
    /* All players full section  */
    .all-players{
+      margin-top: 20px;
       padding-top: 20px;
       padding-left: 10%;
       padding-right: 10%;
@@ -97,4 +99,64 @@
       font-weight: 400;
       line-height: 26px;
       color: #6C6C6C;
+   }
+   /*-----------------------------------------
+   Third section brilliant Copa America 2021
+   ---------------------------------------  */
+   .brliant-player{
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+   /* brlliant plaer title style  */
+   .bp-title{
+      font-size: xx-large;
+      padding-left: 100px;
+      padding-right: 100px;
+      border-radius: 50px;
+       background-color: skyblue;
+   }
+   /* brlliant player text Style */
+   .bp-text{
+      width: 900px;
+      text-align: justify;
+   }
+   h4{
+      margin: 0;
+   }
+
+   /*-----------------------------
+     Forth section TM Song Style
+   ------------------------------*/
+   .tm-song{
+      text-align: center;
+   }
+   /* parents div/class Tm video % title  */
+   .tm-box{
+      margin: 10%;
+      padding: 50px;
+      border-radius: 50px;
+      background-color:whitesmoke;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   /* box title  */
+   .song-title{
+      font-size: xx-large;
+      width: 700;
+      color: lightslategray;
+      background-color: lightgray;
+   }
+
+   /*-------------------------
+         Footer item style
+   -------------------------*/
+   footer{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+   .fotter-image{
+      width: 483px;
+      height: 110px;
    }
