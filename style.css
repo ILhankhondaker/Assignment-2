@@ -160,3 +160,49 @@
       width: 483px;
       height: 110px;
    }
+   /*------------------
+       Media Qures
+   --------------------*/
+
+   /* Mobile responsive  */
+@media only screen and (max-width:688px) {
+   .top-section{
+      display: flex;
+      flex-direction: column;
+   }  
+   .text-button{
+      width: 320px;
+   }
+   /* to title font style  */
+   .top-title{
+      font-size: 50px;
+      width: 250px;
+      left: 0;
+   }
+    .top-image{
+     display: none;
+   }
+   /* player information section  */
+   .players{
+      grid-template-columns: repeat(1,1fr);
+   }
+   /* brilliant player image  */
+   .brliant-player img{
+      width: 400px;
+   }
+   /* brilliant player text  */
+   .bp-text{
+      width: 400px;
+   }
+   /* Tm song video  */
+   video{
+      width: 320px;
+   }
+   /* fotter tags logo image  */
+   .fotter-image img{
+      width: 180px;
+   }
+
+   }
+   
+
